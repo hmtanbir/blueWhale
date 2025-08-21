@@ -9,6 +9,7 @@ const RootLayout = () => {
         <SafeAreaView className="flex-1">
             <StatusBar style="auto" />
             <Stack>
+              <Stack.Screen name='(tabs)' options={{ title: 'Tabs', headerTitleAlign: 'center', headerShown: false }} />
               <Stack.Screen name='index' options={{ title: 'Homepage', headerTitleAlign: 'center', headerShown: false }} />
             </Stack>
         </SafeAreaView>
